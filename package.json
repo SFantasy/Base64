@@ -1,0 +1,28 @@
+{
+  "name": "base64",
+  "version": "0.0.1",
+  "description": "Base64 encode and decode online.",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SFantasy/Base64.git"
+  },
+  "keywords": [
+    "base64",
+    "gulp",
+    "coffeescript",
+    "sass"
+  ],
+  "author": "fantasy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SFantasy/Base64/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-coffee": "^2.1.1",
+    "gulp-concat": "^2.3.4",
+    "gulp-uglify": "^0.3.1",
+    "gulp-ruby-sass": "^0.6.0"
+  }
+}
