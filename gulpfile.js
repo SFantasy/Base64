@@ -15,7 +15,7 @@ gulp.task('default', ['scripts', 'sass']);
 
 gulp.task('scripts', function() {
     gulp.src(paths.scripts)
-        .pipe(coffee())
+        .pipe(coffee({bare: true}))
         .pipe(uglify())
         .pipe(concat('main.min.js'))
     .pipe(gulp.dest('dest/js'));
