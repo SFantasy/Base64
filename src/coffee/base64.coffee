@@ -1,6 +1,9 @@
 # easiest base64 encoder and decoder
 class Base64
-    encode: (obj) ->
-        window.btoa(JSON.stringify(obj))
+    encode: (str) ->
+      str = str.replace /\n/g, ''
+                .replace /\s/g, ''
+      window.btoa str
+
     decode: (str) ->
-        JSON.parse(window.atob(str))
+      JSON.stringify(JSON.parse(window.atob(str)), undefined, 2)
