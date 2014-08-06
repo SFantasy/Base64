@@ -5,7 +5,7 @@ Base64 encoder and decoder online.
 
 [fantasy.codes/Base64/](http://fantasy.codes/Base64/)
 
-## Intro
+## Introduction
 
 Sample project using [gulp](http://gulpjs.com/).
 
@@ -18,7 +18,7 @@ gulp plugins used:
 
 Get more info in [gulpfile.js](gulpfile.js)
 
-## Build
+## Build locally
 
 ```
 // Install devpendencies
