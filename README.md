@@ -21,10 +21,10 @@ Get more info in [gulpfile.js](gulpfile.js)
 ## Build locally
 
 ```
-// Install devpendencies
+// Install dependencies
 npm install
 // Run task with gulp
-gulp [default]
+npm run build
 ```
 
 ## License
