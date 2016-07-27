@@ -12,4 +12,4 @@ class Base64
       try
         JSON.stringify(JSON.parse(window.atob(str)), undefined, 2)
       catch err
-        alert err
+        window.atob(str)
